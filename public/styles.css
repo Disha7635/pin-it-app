@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 252, 252);
+}
+header {
+  background-color: rgb(33, 33, 78);
+  margin: 0px 0px 10px 0px;
+  padding: 10px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  color: rgb(231, 225, 225);
+}
+.note {
+  background-color: aliceblue;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0px 2px 5px 0px;
+  float: left;
+}
+.note h3 {
+  padding: 1px;
+}
+.note button {
+  color: rgb(12, 12, 55);
+  background-color: aliceblue;
+  border: none;
+  float: right;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+}
+.create-note Fab {
+  background-color: rgb(12, 12, 55);
+}
+.create-note input {
+  background-color: aliceblue;
+  border-bottom: none;
+}
+.create-note textarea {
+  background-color: aliceblue;
+  border-top: none;
+}
