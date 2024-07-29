@@ -1,5 +1,4 @@
 import React from "react";
-import PushPinIcon from "@mui/icons-material/PushPin";
 import StarIcon from "@mui/icons-material/Star";
 export default function Header() {
   return (
